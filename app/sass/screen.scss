@@ -1,0 +1,254 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+/* --------------- Head */
+
+.header{
+  width: 100%;
+  height: 120px;
+  background: #ebf1f7;
+}
+.header__bagraund{
+  margin: auto;
+  position: inherit;
+  width: 1000px;
+  height: 100%;
+}
+.logo{
+  float: left;
+  width: 330px;
+  text-align: center;
+  padding-top: 25px;
+}
+.header__null{
+  float: center;
+  
+}
+.adres{
+float: right;
+width: 330px;
+
+text-align: center;
+padding-top: 25px;
+
+}
+.adres__telephone__decoration{
+  text-decoration: none;
+}
+
+/*======================= UP Menu*/
+ // ul{
+ //      margin: 0;
+ //      padding: 0;
+ //      list-style: none;
+ //    }
+
+ // #breadcrumbs-two{
+ //      /* Clear floats */
+ //      overflow: hidden;
+ //      width: 100%;
+ //      top: 100px;
+ //      margin-left: 10%;
+ //      position: absolute;
+ //    }
+    
+ //    #breadcrumbs-two li{
+ //      float: left;
+ //      margin: 0 .5em 0 1em;
+ //    }
+    
+ //    #breadcrumbs-two a{
+ //      background: #f7f7f7;
+ //      padding: .7em 1em;
+ //      float: left;
+ //      text-decoration: none;
+ //      color: #444;
+ //      text-shadow: 0 1px 0 rgba(255,255,255,.5); 
+ //      position: relative;
+ //    }
+    
+ //    #breadcrumbs-two a:hover{
+ //      background: #dce6f0;
+ //    }
+    
+ //    #breadcrumbs-two a::before{
+ //      content: "";
+ //      position: absolute;
+ //      top: 50%; 
+ //      margin-top: -1.5em;   
+ //      border-width: 1.5em 0 1.5em 1em;
+ //      border-style: solid;
+ //      border-color: #f7f7f7 #f7f7f7 #f7f7f7 transparent;
+ //      left: -1em;
+ //    }
+    
+ //    #breadcrumbs-two a:hover::before{
+ //      border-color: #dce6f0 #dce6f0 #dce6f0 transparent;
+ //    }
+    
+ //    #breadcrumbs-two a::after{
+ //      content: "";
+ //      position: absolute;
+ //      top: 50%; 
+ //      margin-top: -1.5em;   
+ //      border-top: 1.5em solid transparent;
+ //      border-bottom: 1.5em solid transparent;
+ //      border-left: 1em solid #f7f7f7;
+ //      right: -1em;
+ //    }
+    
+ //    #breadcrumbs-two a:hover::after{
+ //      border-left-color: #dce6f0;
+ //    }
+    
+ //    #breadcrumbs-two .current,
+ //    #breadcrumbs-two .current:hover{
+ //      font-weight: bold;
+ //      background: none;
+ //    }
+    
+ //    #breadcrumbs-two .current::after,
+ //    #breadcrumbs-two .current::before{
+ //      content: normal;
+ //    }
+
+#venegret ul {
+	margin-left: 11em;
+	margin-top: -20px;
+//     list-style: none outside none;
+}
+#venegret ul li a {
+    float: left;
+	height: 25px;
+	background: #f7f7f7;
+	text-align: center;
+	padding: 15px 0px 0 35px;
+	position: relative;
+	margin: 0 2px 0 0; 
+	font-size: 16px;
+	text-decoration: none;
+    color: #5c7b98;    
+}
+#venegret ul li a:after {
+    content: "";  
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid #f7f7f7;
+    position: absolute; right: -20px; top: 0;
+    z-index: 1;
+}
+
+#venegret ul li a:before {
+    content: "";
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid rgba(235,241,247,0.8);
+    border-top: 20px solid transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#venegret ul li a:hover {
+    background: none repeat scroll 0 0 #dce6f0;
+}
+#venegret ul li a:hover:after {
+    border-left-color: #dce6f0;
+}
+
+.text__menu{
+    position: inherit;
+    top: -5px;
+    left: -10px;
+}
+
+#venegret ul li a:focus  {
+    background: #00b9fe;
+    color: white;
+}
+#venegret ul li a:focus:after  {
+    border-left-color: #00b9fe;
+    color: white;
+}
+
+
+
+
+
+    /*  ++++++++++====== Drop menu */
+#menu_body li ul {
+	display: none;
+	}
+#menu_body li:hover ul, #menu_body li.over ul {
+	display: block;
+	}
+ #menu_body {
+    background:#f7f7f7;
+    width: 230px;
+    }
+#menu_body a {
+	display: block;
+	width: 100%;
+	height: 30px;
+	// padding-left: -15px;
+	margin-top: 5px;
+	
+	
+	} 
+
+#menu_body ul li {
+    list-style-type: none;
+    border-bottom: 2px solid #fff;
+    // padding-left: -50px;
+    height: 150%;
+    padding-left: 20px;
+    // text-align: left;
+    min-height: 30px;
+    // text-indent: 1.5em;
+    padding-top: 5px;
+    } 
+
+#menu_body ul li a {
+	height: 100%;
+    color: #5c7b98;
+    text-decoration: none;
+	font-size: 115%;
+	font-family: Georgia;
+} 
+
+#menu_body ul li a:hover {
+	height: 100%;
+    color: #5c7b98;
+    text-decoration: none;
+	background:#dce6f0;
+    } 
+
+#menu_body ul li ul li {
+	border: 0;
+    list-style-type: none;
+    color: #5c7b98;
+    list-style-position: inside;
+	background:#f7f7f7;
+	margin-bottom: 5px solid white;
+	// padding-left: -150px;
+	margin-left: -30px;
+    } 
+
+
+#menu_body ul li ul{
+    border-top: 1px solid #fff;
+    margin-left: -40px;
+    padding-left: 50px;
+    padding-right: 5px;
+    }
+
+.left__menu{
+	position: absolute;
+	left: 200px;
+	top: 200px;
+	width: 230px;
+	height: 100%;
+}
