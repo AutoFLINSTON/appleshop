@@ -5,6 +5,7 @@
 
 @import "compass/reset";
 
+
 /* --------------- Head */
 
 .header{
@@ -116,12 +117,18 @@ padding-top: 25px;
  //      content: normal;
  //    }
 
+// .menu__left-menu__content{
+// 	margin-left: 220px;
+// }
+
+
 #venegret ul {
-	margin-left: 11em;
+	margin-left: 13em;
 	margin-top: -20px;
 //     list-style: none outside none;
 }
 #venegret ul li a {
+
     float: left;
 	height: 25px;
 	background: #f7f7f7;
@@ -188,6 +195,7 @@ padding-top: 25px;
  #menu_body {
     background:#f7f7f7;
     width: 230px;
+    
     }
 #menu_body a {
 	display: block;
@@ -246,9 +254,11 @@ padding-top: 25px;
     }
 
 .left__menu{
-	position: absolute;
-	left: 200px;
-	top: 200px;
+	margin-left: 200px;
+	margin-top: 100px;
+	// position: absolute;
+	// left: 200px;
+	// top: 200px;
 	width: 230px;
 	height: 100%;
 }
@@ -256,10 +266,11 @@ padding-top: 25px;
 // bread__crumbs
 
 .bread__crumbs{
-	position: inherit;
+	position: absolute;
+	top: 160px;
+	left: 200px;
 	width: 265px;
 	height: 20px;
-	top: -35px;
 	cursor: pointer;
 	display: inline;
 }
@@ -286,13 +297,58 @@ padding-top: 25px;
 .content{
 	position: absolute;
 	top: 200px;
-	left: 465px;
+	left: 450px;
 	width: 740px;
 	max-height: 1500px;
+	display: block;
 }
 
 .content__product__box{
+	position: relative;
 	width: 740px;
 	height: 160px;
-	border: 2px solid #dce3ec;
+	border: 1px solid #dce3ec;
+	display: inline-block;
+	margin-bottom: 20px;
+	
+}
+
+.content__product__box:hover{
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.content__product__i__img{
+	margin: 30px;
+	display: inline-block;
+}
+.content__product__i__text{
+	position: absolute;
+	top: 40px;
+	width: 450px;
+	color: #5c7b98;
+	display: inline-block;
+	
+}
+.content__product__i__img{
+	width: 145px;
+	height: 110px;
+}
+.content__product__i__text__model{
+	font: bold 110% serif;
+	color: #00b9fe;
+	margin-bottom: 20px;
+	text-decoration: underline;
+}
+
+// style
+
+#style {
+	position: absolute;
+	top: 160px;
+	left: 950px;
+}
+// text about
+.content__text__tittle{
+	
+	color: #5c7b98;
 }
