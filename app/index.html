@@ -17,6 +17,7 @@
 	<link rel="stylesheet" type="text/css" href="css/screen.css">
 	<!-- modernizr -->
 	<script src="bower/modernizer/modernizr.js"></script>
+	<script src="js/sub_menu.js"></script>
 	<!--ICO-->
 	<link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-touch-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-touch-icon-60x60.png">
@@ -45,7 +46,7 @@
 <header class="header">
 	<div class="header__bagraund">
 		<div class="logo">
-			<div class="logo__images"><img src="images/appleShop.png" alt="ЭпплШоп"></div>
+			<div class="logo__images"><img href="#1" src="images/appleShop.png" alt="ЭпплШоп"></div>
 		</div>
 		<div class="header__null"></div>
 		<div class="adres">
@@ -94,6 +95,19 @@
 <!-- КОНЕЦ МЕНЮ ВЕРХ -->
 <!-- Выпадающее меню -->
 <div class="left__menu">
+		<!--  Хлебные крошки -->
+		<div class="bread__crumbs">
+			<div class="bread__crumbs_content">
+			<p href="#" class="bread__crumbs__text">Главная</p>
+			</div>
+			<div href="index.html" class="bread__crumbs_content">
+			<p class="bread__crumbs__next">> </p>
+			</div>
+			<div class="bread__crumbs_content">
+			<p href="#" class="bread__crumbs__2">Каталог</p>
+			</div>
+		</div>
+		<!-- Конец хлебные крошки -->
 	<div id="menu_body">
 		<ul>
 			<li><a href="#" onclick="openMenu('sub_menu_1');return(false)">iPhone</a>
@@ -121,8 +135,8 @@
 с дисплеем Retina 5K</a></li>
 				</ul>
 			</li>
-			<li><a href="#" onclick="openMenu('sub_menu_3');return(false)">Macbook</a>
-				<ul id="sub_menu_3">
+			<li><a href="#" onclick="openMenu('sub_menu_4');return(false)">Macbook</a>
+				<ul id="sub_menu_4">
 					<li><a href="#">>MacBook</a></li>
 					<li><a href="#">>11-дюймовый MacBook Air</a></li>
 					<li><a href="#">>13-дюймовый MacBook Air</a></li>
@@ -139,15 +153,15 @@
 					<li><a href="#">>Mac Pro</a></li>
 				</ul>
 			</li>
-			<li><a href="#" onclick="openMenu('sub_menu_3');return(false)">iPod</a>
-				<ul id="sub_menu_3">
+			<li><a href="#" onclick="openMenu('sub_menu_5');return(false)">iPod</a>
+				<ul id="sub_menu_5">
 					<li><a href="#">>iPod touch</a></li>
 					<li><a href="#">>iPod nano</a></li>
 					<li><a href="#">>iPod shuffle</a></li>
 				</ul>
 			</li>
-			<li><a href="#" onclick="openMenu('sub_menu_3');return(false)">Другое</a>
-				<ul id="sub_menu_3">
+			<li><a href="#" onclick="openMenu('sub_menu_6');return(false)">Другое</a>
+				<ul id="sub_menu_6">
 					<li><a href="#">>Чехлы</a></li>
 					<li><a href="#">>Кабеля</a></li>
 					<li><a href="#">>Гарнитура</a></li>
@@ -158,12 +172,53 @@
 </div>
 <!-- Конец выпадающего меню -->
 
+<!-- Товар-->
 <!--  Выбор отображения -->
+<select name="select" id="select">
+	<options>Линией</options>
+	<options>Сеткой</options>
+</select>
 <!-- Конец выбора отображения -->
 
 <!-- Перечисление страниц -->
+<div class="number">
+	<ul class="number__products">
+		<li class="number__products__1">1</li>
+		<li class="number__products__2">2</li>
+		<li class="number__products__3">3</li>
+		<li class="number__products__4">4</li>
+		<li class="number__products__5">5</li>
+		<li class="number__products__all">Все</li>
+	</ul>
+</div>
 <!-- Конец перечисления страниц -->
 
+
+
+<div class="content">
+	<div class="content__product">
+		<div class="content__product__box">
+			<div class="content__product__imac">
+				<div class="content__product__imac__img">
+					<img src="images/Layer-10.png" alt="">
+					<div class="content__product__imac__text">
+						<h2 class="content__product__imac__text__model">Apple Thunderbolt Display 27"</h2>
+						<p class="content__product__imac__text__description">
+							Артикул: 42787825, Опция: включена, Цвет: серебристый, Размер: 
+	1280*1245*90, Вес: 9 кг
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="content__text">
+		<p class="content__text__about">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus excepturi ipsum iusto placeat nulla, voluptate consequatur non laborum quo possimus facere reiciendis voluptatem provident labore neque maiores debitis, necessitatibus. Aspernatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita illum illo, voluptates. Odio beatae pariatur accusamus perspiciatis sint! Vitae at numquam aliquid cumque, officiis aperiam qui iusto alias excepturi, reprehenderit.
+		</p>
+	</div>
+</div>
+<!-- конец товвара -->
 
 
 </div>
