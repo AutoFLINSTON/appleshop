@@ -17,7 +17,6 @@
 	<link rel="stylesheet" type="text/css" href="css/screen.css">
 	<!-- modernizr -->
 	<script src="bower/modernizer/modernizr.js"></script>
-	<script src="js/sub_menu.js"></script>
 	<!--ICO-->
 	<link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-touch-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-touch-icon-60x60.png">
@@ -121,12 +120,12 @@
 		<!-- Перечисление страниц -->
 		<div class="number">
 			<ul class="number__products">
-				<li class="number__products__1">1</li>
-				<li class="number__products__2">2</li>
-				<li class="number__products__3">3</li>
-				<li class="number__products__4">4</li>
-				<li class="number__products__5">5</li>
-				<li class="number__products__all">Все</li>
+					<a href="#"><li class="number__products__1">1</li></a>
+					<a href="#"><li class="number__products__2">2</li></a>
+					<a href="#"><li class="number__products__3">3</li></a>
+					<a href="#"><li class="number__products__4">4</li></a>
+					<a href="#"><li class="number__products__5">5</li></a>
+					<a href="#"><li class="number__products__all">Все</li></a>
 			</ul>
 		</div>
 		<!-- Конец перечисления страниц -->
@@ -354,7 +353,13 @@
 <!-- конец товвара -->
 
 </div>
+
 <footer id="footer">
+	<div id = "toTop">
+		<!-- <a href="#top"> -->
+			<img src="images/up.png" alt="Наверх">
+		<!-- </a> -->
+	</div>
 	<div class="map">
 		<div class="map__logo">
 			<img class="map__logo__png" src="images/logo-copy.png" alt="Логотип">
@@ -365,7 +370,7 @@
 					<ul>
 						<li>О нас</li>
 						<li>Наши цены</li>
-						<li>наши скидки</li>
+						<li>Наши скидки</li>
 						<li>Акции</li>
 					</ul>
 			</div>
@@ -391,13 +396,23 @@
 		</div>
 		<div class="map__social">
 			<div class="map__social__appandroid">
-				<div class="map__social__appandroid__app"></div>
-				<div class="map__social__appandroid__android"></div>
+				<div class="map__social__appandroid__app">
+					<img src="images/appstore.png" alt="Магазин1">
+				</div>
+				<div class="map__social__appandroid__android">
+					<img src="images/googleshoop.png" alt="Магазин2">
+				</div>
 			</div>
 			<div class="map__social__vft">
-				<div class="map__social__vft__vk"></div>
-				<div class="map__social__vft__facebook"></div>
-				<div class="map__social__vft__twitter"></div>
+				<div class="map__social__vft__vk">
+					<img src="images/vk.png" alt="Вконтакте">
+				</div>
+				<div class="map__social__vft__facebook">
+					<img src="images/facebook.png" alt="Facebook">
+				</div>
+				<div class="map__social__vft__twitter">
+					<img src="images/twitter.png" alt="Twitter">
+				</div>
 			</div>
 		</div>
 	</div>
@@ -406,6 +421,6 @@
 
 
 </div>
-<script src="js/*.js"></script>
+<script src="js/sub_menu.js"></script>
 </body>
 </html>

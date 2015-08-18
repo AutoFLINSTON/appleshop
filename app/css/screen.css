@@ -328,7 +328,22 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: inline-block;
 }
 
-/* line 340, ../sass/screen.scss */
+/* line 332, ../sass/screen.scss */
+.number__products li {
+  color: #00b9fe;
+}
+
+/* line 335, ../sass/screen.scss */
+.number__products li:hover {
+  text-shadow: 0 0 1em blue;
+}
+
+/* line 338, ../sass/screen.scss */
+.number__products li:focus {
+  color: #5c7b98;
+}
+
+/* line 347, ../sass/screen.scss */
 .box__center {
   margin-left: auto;
   margin-right: auto;
@@ -336,14 +351,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   height: 100%;
 }
 
-/* line 348, ../sass/screen.scss */
+/* line 355, ../sass/screen.scss */
 .content {
   display: inline-block;
   width: 740px;
   margin-top: 25px;
 }
 
-/* line 355, ../sass/screen.scss */
+/* line 362, ../sass/screen.scss */
 .content__product__box {
   position: relative;
   width: 740px;
@@ -353,18 +368,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-bottom: 20px;
 }
 
-/* line 365, ../sass/screen.scss */
+/* line 372, ../sass/screen.scss */
 .content__product__box:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-/* line 369, ../sass/screen.scss */
+/* line 376, ../sass/screen.scss */
 .content__product__i__img {
   margin: 30px;
   display: inline-block;
 }
 
-/* line 373, ../sass/screen.scss */
+/* line 380, ../sass/screen.scss */
 .content__product__i__text {
   position: absolute;
   top: 40px;
@@ -373,13 +388,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: inline-block;
 }
 
-/* line 381, ../sass/screen.scss */
+/* line 388, ../sass/screen.scss */
 .content__product__i__img {
   width: 145px;
   height: 110px;
 }
 
-/* line 385, ../sass/screen.scss */
+/* line 392, ../sass/screen.scss */
 .content__product__i__text__model {
   font: bold 110% serif;
   color: #00b9fe;
@@ -387,20 +402,21 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   text-decoration: underline;
 }
 
-/* line 396, ../sass/screen.scss */
+/* line 403, ../sass/screen.scss */
 .content__text__tittle {
   color: #5c7b98;
 }
 
-/* line 402, ../sass/screen.scss */
+/* line 409, ../sass/screen.scss */
 #footer {
   display: inline-block;
   width: 100%;
   height: 240px;
   background: #653e96;
+  background-image: url("../images/footer.png");
 }
 
-/* line 409, ../sass/screen.scss */
+/* line 419, ../sass/screen.scss */
 .map {
   margin-left: auto;
   margin-right: auto;
@@ -408,62 +424,83 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   height: 100%;
 }
 
-/* line 417, ../sass/screen.scss */
+/* line 427, ../sass/screen.scss */
 .map__logo {
   display: inline-block;
   width: 230px;
   height: 230px;
-  border: 1px solid red;
   vertical-align: top;
 }
 
-/* line 424, ../sass/screen.scss */
+/* line 434, ../sass/screen.scss */
 .map__logo__png {
   margin-top: 90px;
 }
 
-/* line 430, ../sass/screen.scss */
+/* line 440, ../sass/screen.scss */
 .map__link {
   display: inline-block;
   width: 500px;
   height: 230px;
   vertical-align: top;
-  border: 1px solid black;
 }
 
-/* line 438, ../sass/screen.scss */
+/* line 448, ../sass/screen.scss */
 .map__link__about, .map__link__catalog, .map__link__adress {
   display: inline-block;
   color: white;
   margin-top: 60px;
 }
 
-/* line 443, ../sass/screen.scss */
+/* line 453, ../sass/screen.scss */
 .map__link__about, .map__link__catalog {
   margin-right: 70px;
 }
 
-/* line 447, ../sass/screen.scss */
-.map__link__about__h3 {
+/* line 457, ../sass/screen.scss */
+.map__link__about__h3, .map__link__catalog__h3, .map__link__adress__contacts {
   margin-bottom: 12px;
 }
 
-/* line 450, ../sass/screen.scss */
-.map__link__about ul li {
+/* line 460, ../sass/screen.scss */
+.map__link__about ul li, .map__link__catalog ul li, .map__link__adress ul li {
   margin-bottom: 10px;
   text-decoration: underline;
 }
 
-/* line 457, ../sass/screen.scss */
+/* line 467, ../sass/screen.scss */
 .map__social {
   display: inline-block;
   width: 230px;
   height: 100%;
   vertical-align: top;
-  border: 1px solid green;
 }
 
-/* line 464, ../sass/screen.scss */
-.all__contener {
-  border: 1px solid red;
+/* line 476, ../sass/screen.scss */
+#toTop {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  display: none;
+}
+
+/* line 483, ../sass/screen.scss */
+.map__social__appandroid, .map__social__appandroid__app, .map__social__appandroid__android {
+  display: inline-block;
+}
+
+/* line 486, ../sass/screen.scss */
+.map__social__appandroid {
+  margin-left: 40px;
+  margin-top: 70px;
+}
+
+/* line 490, ../sass/screen.scss */
+.map__social__vft, .map__social__vft__vk, .map__social__vft__facebook, .map__social__vft__twitter {
+  display: inline-block;
+}
+
+/* line 493, ../sass/screen.scss */
+.map__social__vft {
+  margin-left: 35px;
 }
