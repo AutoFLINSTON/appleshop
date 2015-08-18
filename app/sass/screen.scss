@@ -144,12 +144,17 @@ padding-top: 25px;
 	height: 25px;
 	background: #f7f7f7;
 	text-align: center;
-	padding: 15px 0px 0 35px;
+	padding: 20px 0px 0 35px;
 	position: relative;
 	margin: 0 2px 0 0; 
-	font-size: 16px;
+	font-size: 15px;
 	text-decoration: none;
-    color: #5c7b98;    
+    color: #5c7b98;  
+    font-family: 'elektra_light_proregular';
+    font-style: bold;
+
+
+
 }
 #venegret ul li a:after {
     content: "";  
@@ -222,6 +227,7 @@ padding-top: 25px;
     padding-left: 20px;
     min-height: 30px;
     padding-top: 5px;
+    border-bottom: 1px solid #dae1eb;
 } 
 
 #menu_body ul li a {
@@ -232,12 +238,20 @@ padding-top: 25px;
 	font-family: Georgia;
 } 
 
-#menu_body ul li a:hover {
+#menu_body ul li ul li:hover {
 	height: 100%;
     color: #5c7b98;
     text-decoration: none;
 	background:#dce6f0;
+	
     } 
+#menu_body ul li:hover {
+	height: 100;
+    color: #5c7b98;
+    text-decoration: none;
+	background:#dce6f0;
+	
+    }
 
 #menu_body ul li ul li {
 	border: 0;
@@ -247,6 +261,8 @@ padding-top: 25px;
 	background:#f7f7f7;
 	margin-bottom: 5px solid white;
 	margin-left: -30px;
+	border-bottom: 1px solid #dae1eb;
+	
 } 
 
 
@@ -254,8 +270,9 @@ padding-top: 25px;
     border-top: 1px solid #fff;
     margin-left: -40px;
     padding-left: 50px;
-    padding-right: 5px;
-    }
+    // padding-right: 5px;
+    
+}
 
 .left__menu{
 	display: inline-block;
@@ -263,6 +280,7 @@ padding-top: 25px;
 	width: 230px;
 	margin-top: 25px;
 	vertical-align: top;
+	font-size: 15px;
 	
 }
 // hed-con
@@ -303,7 +321,10 @@ padding-top: 25px;
 	display: inline;
 	color: #55d0fe;
 }
-
+.bread__crumbs div p{
+	font-family: 'elektra_light_proregular';
+	float-size: 14px;
+}
 
 // style
 .style__select{
@@ -311,6 +332,7 @@ padding-top: 25px;
 	width: 80;
 	float: center;
 	margin-left: 480px;
+	font-family: 'elektra_light_proregular';
 }
 
 #style {
@@ -325,17 +347,18 @@ padding-top: 25px;
 .number{
 	display: inline-block;
 	float: right;
+	font-family: 'elektra_light_proregular';
 }
 .number ul li{
 	display: inline-block;
 }
-.number__products li{
+.number__products a li{
 	color: #00b9fe;
 }
-.number__products li:hover{
+.number__products a li:hover{
 	text-shadow: 0 0 1em blue;
 }
-.number__products li:focus{
+.number__products a li:focus{
 	color: #5c7b98;
 }
 
@@ -349,6 +372,8 @@ padding-top: 25px;
 	margin-right: auto;
 	width: 1000px;
 	height: 100%;
+	font-family: 'elektra_light_proregular';
+	font-size: 14px;
 	
 }
 
@@ -395,14 +420,33 @@ padding-top: 25px;
 	margin-bottom: 20px;
 	text-decoration: underline;
 }
-
+.content__product__i__text__description{
+	font-size: 14px;
+}
 
 
 
 // text about
 .content__text__tittle{
-	
+	font-family: 'elektra_light_probold';
+	font-size: bold;
+	font-size: 25px;
 	color: #5c7b98;
+}
+.content__text__about{
+	font-family: 'elektra_light_proregular';
+	font-size: normal;
+	font-size: 15px;
+	color: #5c7b98;
+	margin-top: 15px;
+}
+.content__text__about__2{
+	font-family: 'elektra_light_proregular';
+	font-size: normal;
+	font-size: 15px;
+	color: #5c7b98;
+	margin-top: 15px;
+	margin-bottom: 80px;
 }
 
 // footer
@@ -421,6 +465,8 @@ padding-top: 25px;
 	margin-right: auto;
 	width: 1000px;
 	height: 100%;
+	font-family: 'elektra_light_proregular';
+	font-size: 15px;
 	
 }
 
@@ -445,6 +491,24 @@ padding-top: 25px;
 	
 	
 }
+.adress__telephone__number{
+	font-family: 'elektra_light_probold';
+	color: #00b9fe;
+	margin-bottom: 5px;
+	vertical-align: top;
+}
+.adres__telephone__number__bold{
+	font-family: 'elektra_light_proregular';
+	color: #5c7b98;
+	font-size: 25pt;
+}
+.adres__email__text{
+	font-family: 'elektra_light_proregular';
+}
+.adres__email__text:hover{
+	color: #613993;
+}
+
 .map__link__about, .map__link__catalog, .map__link__adress{
 	display: inline-block;
 	color: white;
@@ -456,6 +520,8 @@ padding-top: 25px;
 
 .map__link__about__h3, .map__link__catalog__h3, .map__link__adress__contacts{
 	margin-bottom: 12px;
+	font-family: 'elektra_light_probold';
+	font-style: bold;
 }
 .map__link__about ul li, .map__link__catalog ul li, .map__link__adress ul li{
 	margin-bottom: 10px;
