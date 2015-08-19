@@ -126,17 +126,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   height: 25px;
   background: #f7f7f7;
   text-align: center;
-  padding: 20px 0px 0 35px;
+  padding: 15px 0px 0 35px;
   position: relative;
   margin: 0 2px 0 0;
   font-size: 15px;
   text-decoration: none;
   color: #5c7b98;
   font-family: 'elektra_light_proregular';
-  font-style: bold;
 }
 
-/* line 159, ../sass/screen.scss */
+/* line 155, ../sass/screen.scss */
 #venegret ul li a:after {
   content: "";
   border-top: 20px solid transparent;
@@ -148,7 +147,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   z-index: 1;
 }
 
-/* line 168, ../sass/screen.scss */
+/* line 164, ../sass/screen.scss */
 #venegret ul li a:before {
   content: "";
   border-bottom: 20px solid transparent;
@@ -159,53 +158,53 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: 0;
 }
 
-/* line 178, ../sass/screen.scss */
+/* line 174, ../sass/screen.scss */
 #venegret ul li a:hover {
   background: none repeat scroll 0 0 #dce6f0;
 }
 
-/* line 181, ../sass/screen.scss */
+/* line 177, ../sass/screen.scss */
 #venegret ul li a:hover:after {
   border-left-color: #dce6f0;
 }
 
-/* line 185, ../sass/screen.scss */
+/* line 181, ../sass/screen.scss */
 .text__menu {
   position: inherit;
-  top: -5px;
+  top: 0px;
   left: -10px;
 }
 
-/* line 191, ../sass/screen.scss */
+/* line 187, ../sass/screen.scss */
 #venegret ul li a:focus {
   background: #00b9fe;
   color: white;
 }
 
-/* line 195, ../sass/screen.scss */
+/* line 191, ../sass/screen.scss */
 #venegret ul li a:focus:after {
   border-left-color: #00b9fe;
   color: white;
 }
 
 /*  ++++++++++====== Drop menu */
-/* line 205, ../sass/screen.scss */
+/* line 201, ../sass/screen.scss */
 #menu_body li ul {
   display: none;
 }
 
-/* line 208, ../sass/screen.scss */
+/* line 204, ../sass/screen.scss */
 #menu_body li:hover ul, #menu_body li.over ul {
   display: block;
 }
 
-/* line 211, ../sass/screen.scss */
+/* line 207, ../sass/screen.scss */
 #menu_body {
   background: #f7f7f7;
   width: 230px;
 }
 
-/* line 216, ../sass/screen.scss */
+/* line 212, ../sass/screen.scss */
 #menu_body a {
   display: block;
   width: 100%;
@@ -213,7 +212,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-top: 5px;
 }
 
-/* line 223, ../sass/screen.scss */
+/* line 219, ../sass/screen.scss */
 #menu_body ul li {
   list-style-type: none;
   border-bottom: 2px solid #fff;
@@ -224,7 +223,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   border-bottom: 1px solid #dae1eb;
 }
 
-/* line 233, ../sass/screen.scss */
+/* line 229, ../sass/screen.scss */
 #menu_body ul li a {
   height: 100%;
   color: #5c7b98;
@@ -233,7 +232,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-family: Georgia;
 }
 
-/* line 241, ../sass/screen.scss */
+/* line 237, ../sass/screen.scss */
 #menu_body ul li ul li:hover {
   height: 100%;
   color: #5c7b98;
@@ -241,7 +240,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: #dce6f0;
 }
 
-/* line 248, ../sass/screen.scss */
+/* line 244, ../sass/screen.scss */
 #menu_body ul li:hover {
   height: 100;
   color: #5c7b98;
@@ -249,7 +248,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: #dce6f0;
 }
 
-/* line 256, ../sass/screen.scss */
+/* line 252, ../sass/screen.scss */
 #menu_body ul li ul li {
   border: 0;
   list-style-type: none;
@@ -261,14 +260,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   border-bottom: 1px solid #dae1eb;
 }
 
-/* line 269, ../sass/screen.scss */
+/* line 265, ../sass/screen.scss */
 #menu_body ul li ul {
   border-top: 1px solid #fff;
   margin-left: -40px;
   padding-left: 50px;
 }
 
-/* line 277, ../sass/screen.scss */
+/* line 273, ../sass/screen.scss */
 .left__menu {
   display: inline-block;
   margin-right: 20px;
@@ -278,7 +277,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-size: 15px;
 }
 
-/* line 287, ../sass/screen.scss */
+/* line 283, ../sass/screen.scss */
 #hed__con {
   margin-top: 50px;
   margin-left: auto;
@@ -287,7 +286,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   height: 100%;
 }
 
-/* line 301, ../sass/screen.scss */
+/* line 297, ../sass/screen.scss */
 .bread__crumbs {
   width: 265px;
   cursor: pointer;
@@ -295,34 +294,34 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   float: left;
 }
 
-/* line 308, ../sass/screen.scss */
+/* line 304, ../sass/screen.scss */
 .bread__crumbs_content {
   width: 100%;
   height: 100%;
   display: inline;
 }
 
-/* line 314, ../sass/screen.scss */
+/* line 310, ../sass/screen.scss */
 .bread__crumbs__text, .bread__crumbs__next, .bread__crumbs__2 {
   position: inherit;
   display: inline;
   color: #5c7b98;
 }
 
-/* line 319, ../sass/screen.scss */
+/* line 315, ../sass/screen.scss */
 .bread__crumbs__text, .bread__crumbs__next, .bread__crumbs__2:focus {
   position: inherit;
   display: inline;
   color: #55d0fe;
 }
 
-/* line 324, ../sass/screen.scss */
+/* line 320, ../sass/screen.scss */
 .bread__crumbs div p {
   font-family: 'elektra_light_proregular';
   float-size: 14px;
 }
 
-/* line 330, ../sass/screen.scss */
+/* line 326, ../sass/screen.scss */
 .style__select {
   display: inline-block;
   width: 80;
@@ -331,39 +330,39 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-family: 'elektra_light_proregular';
 }
 
-/* line 338, ../sass/screen.scss */
+/* line 334, ../sass/screen.scss */
 #style {
   margin: auto;
 }
 
-/* line 347, ../sass/screen.scss */
+/* line 343, ../sass/screen.scss */
 .number {
   display: inline-block;
   float: right;
   font-family: 'elektra_light_proregular';
 }
 
-/* line 352, ../sass/screen.scss */
+/* line 348, ../sass/screen.scss */
 .number ul li {
   display: inline-block;
 }
 
-/* line 355, ../sass/screen.scss */
+/* line 351, ../sass/screen.scss */
 .number__products a li {
   color: #00b9fe;
 }
 
-/* line 358, ../sass/screen.scss */
+/* line 354, ../sass/screen.scss */
 .number__products a li:hover {
   text-shadow: 0 0 1em blue;
 }
 
-/* line 361, ../sass/screen.scss */
+/* line 357, ../sass/screen.scss */
 .number__products a li:focus {
   color: #5c7b98;
 }
 
-/* line 370, ../sass/screen.scss */
+/* line 366, ../sass/screen.scss */
 .box__center {
   margin-left: auto;
   margin-right: auto;
@@ -373,14 +372,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-size: 14px;
 }
 
-/* line 380, ../sass/screen.scss */
+/* line 376, ../sass/screen.scss */
 .content {
   display: inline-block;
   width: 740px;
   margin-top: 25px;
 }
 
-/* line 387, ../sass/screen.scss */
+/* line 383, ../sass/screen.scss */
 .content__product__box {
   position: relative;
   width: 740px;
@@ -390,18 +389,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-bottom: 20px;
 }
 
-/* line 397, ../sass/screen.scss */
+/* line 393, ../sass/screen.scss */
 .content__product__box:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-/* line 401, ../sass/screen.scss */
+/* line 397, ../sass/screen.scss */
 .content__product__i__img {
   margin: 30px;
   display: inline-block;
 }
 
-/* line 405, ../sass/screen.scss */
+/* line 401, ../sass/screen.scss */
 .content__product__i__text {
   position: absolute;
   top: 40px;
@@ -410,13 +409,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: inline-block;
 }
 
-/* line 413, ../sass/screen.scss */
+/* line 409, ../sass/screen.scss */
 .content__product__i__img {
   width: 145px;
   height: 110px;
 }
 
-/* line 417, ../sass/screen.scss */
+/* line 413, ../sass/screen.scss */
 .content__product__i__text__model {
   font: bold 110% serif;
   color: #00b9fe;
@@ -424,12 +423,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   text-decoration: underline;
 }
 
-/* line 423, ../sass/screen.scss */
+/* line 419, ../sass/screen.scss */
 .content__product__i__text__description {
   font-size: 14px;
 }
 
-/* line 430, ../sass/screen.scss */
+/* line 426, ../sass/screen.scss */
 .content__text__tittle {
   font-family: 'elektra_light_probold';
   font-size: bold;
@@ -437,7 +436,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   color: #5c7b98;
 }
 
-/* line 436, ../sass/screen.scss */
+/* line 432, ../sass/screen.scss */
 .content__text__about {
   font-family: 'elektra_light_proregular';
   font-size: normal;
@@ -446,7 +445,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-top: 15px;
 }
 
-/* line 443, ../sass/screen.scss */
+/* line 439, ../sass/screen.scss */
 .content__text__about__2 {
   font-family: 'elektra_light_proregular';
   font-size: normal;
@@ -456,7 +455,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-bottom: 80px;
 }
 
-/* line 453, ../sass/screen.scss */
+/* line 449, ../sass/screen.scss */
 #footer {
   display: inline-block;
   width: 100%;
@@ -465,7 +464,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-image: url("../images/footer.png");
 }
 
-/* line 463, ../sass/screen.scss */
+/* line 459, ../sass/screen.scss */
 .map {
   margin-left: auto;
   margin-right: auto;
@@ -475,7 +474,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-size: 15px;
 }
 
-/* line 473, ../sass/screen.scss */
+/* line 469, ../sass/screen.scss */
 .map__logo {
   display: inline-block;
   width: 230px;
@@ -483,12 +482,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   vertical-align: top;
 }
 
-/* line 480, ../sass/screen.scss */
+/* line 476, ../sass/screen.scss */
 .map__logo__png {
   margin-top: 90px;
 }
 
-/* line 486, ../sass/screen.scss */
+/* line 482, ../sass/screen.scss */
 .map__link {
   display: inline-block;
   width: 500px;
@@ -496,57 +495,58 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   vertical-align: top;
 }
 
-/* line 494, ../sass/screen.scss */
+/* line 490, ../sass/screen.scss */
 .adress__telephone__number {
-  font-family: 'elektra_light_probold';
+  font-family: 'elektra_medium_proregular';
   color: #00b9fe;
   margin-bottom: 5px;
   vertical-align: top;
+  font-style: bold;
 }
 
-/* line 500, ../sass/screen.scss */
+/* line 497, ../sass/screen.scss */
 .adres__telephone__number__bold {
   font-family: 'elektra_light_proregular';
   color: #5c7b98;
   font-size: 25pt;
 }
 
-/* line 505, ../sass/screen.scss */
+/* line 502, ../sass/screen.scss */
 .adres__email__text {
   font-family: 'elektra_light_proregular';
 }
 
-/* line 508, ../sass/screen.scss */
+/* line 505, ../sass/screen.scss */
 .adres__email__text:hover {
   color: #613993;
 }
 
-/* line 512, ../sass/screen.scss */
+/* line 509, ../sass/screen.scss */
 .map__link__about, .map__link__catalog, .map__link__adress {
   display: inline-block;
   color: white;
   margin-top: 60px;
 }
 
-/* line 517, ../sass/screen.scss */
+/* line 514, ../sass/screen.scss */
 .map__link__about, .map__link__catalog {
   margin-right: 70px;
 }
 
-/* line 521, ../sass/screen.scss */
+/* line 518, ../sass/screen.scss */
 .map__link__about__h3, .map__link__catalog__h3, .map__link__adress__contacts {
   margin-bottom: 12px;
   font-family: 'elektra_light_probold';
   font-style: bold;
 }
 
-/* line 526, ../sass/screen.scss */
+/* line 523, ../sass/screen.scss */
 .map__link__about ul li, .map__link__catalog ul li, .map__link__adress ul li {
   margin-bottom: 10px;
   text-decoration: underline;
 }
 
-/* line 533, ../sass/screen.scss */
+/* line 530, ../sass/screen.scss */
 .map__social {
   display: inline-block;
   width: 230px;
@@ -554,7 +554,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   vertical-align: top;
 }
 
-/* line 542, ../sass/screen.scss */
+/* line 539, ../sass/screen.scss */
 #toTop {
   position: fixed;
   right: 40px;
@@ -562,23 +562,23 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: none;
 }
 
-/* line 549, ../sass/screen.scss */
+/* line 546, ../sass/screen.scss */
 .map__social__appandroid, .map__social__appandroid__app, .map__social__appandroid__android {
   display: inline-block;
 }
 
-/* line 552, ../sass/screen.scss */
+/* line 549, ../sass/screen.scss */
 .map__social__appandroid {
   margin-left: 40px;
   margin-top: 70px;
 }
 
-/* line 556, ../sass/screen.scss */
+/* line 553, ../sass/screen.scss */
 .map__social__vft, .map__social__vft__vk, .map__social__vft__facebook, .map__social__vft__twitter {
   display: inline-block;
 }
 
-/* line 559, ../sass/screen.scss */
+/* line 556, ../sass/screen.scss */
 .map__social__vft {
   margin-left: 35px;
 }
